@@ -76,10 +76,6 @@ int main(){
 		Th = m;
 		range(i,1,m) scanf("%d %d",&P[i].xx,&P[i].yy);
 		n = min(n,m);
-		//if(m > 10) {
-		//	puts("lol");
-		//	continue;
-		//}
 		if(Th*n < m) {
 			printf("%.6f\n",-1.0);
 			continue;
